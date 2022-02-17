@@ -17,20 +17,43 @@ h1 {
   font-weight: 800;
   text-align: center;
   font-size: 5rem;
+  margin-top: -5rem;
+  margin-bottom: 1rem;
 }
 
 h2 {
-  font-weight: 1000;
+  font-weight: 00;
   font-size: 3rem;
+  margin-bottom: 3rem
 }
 
 h3 {
 font-weight: 1500;
-font-size: 1rem;
+font-size: 2rem;
+margin-bottom: 1rem;
 }
 
 h4{
   font-size: 1rem;
+}
+
+h5{
+  color: #5a6947
+}
+
+h6{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #5a6947
+}
+
+h7{
+  color: #5a6947;
+  margin-right: 10rem;
+}
+
+h8{
+  font-size: 1.5rem;
 }
 
 #wrapper {
@@ -106,6 +129,7 @@ h4{
 }
 
 #intro-holder {
+  width: 100%;
   text-align: center;
 }
 
@@ -127,11 +151,10 @@ h4{
 }
 
 .work-item .inner .work-inside {
-  color: #fff;
+  color: #5a6947;
   padding: 2rem;
   width: 100%;
-  background-color: var(--body-color);
-  text-align: right;
+  text-align: center;
 }
 
 .work-item .inner .work-inside p:last-child {
@@ -172,7 +195,7 @@ h4{
   width: 100%;
   margin-top: .5rem;
   margin-bottom: 2rem;
-  text-align: right;
+  text-align: light;
 }
 
 .page-item .date {
