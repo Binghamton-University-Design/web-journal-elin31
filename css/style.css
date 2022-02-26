@@ -50,6 +50,7 @@ h6{
 h7{
   color: #5a6947;
   margin-right: 10rem;
+  line-height: 2rem;
 }
 
 h8{
@@ -235,4 +236,3 @@ h8{
 #footer p:last-child {
   margin-bottom: 0;
 }
-
